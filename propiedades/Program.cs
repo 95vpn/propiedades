@@ -11,7 +11,7 @@ namespace propiedades
         static void Main(string[] args)
         {
             var data = new Estudiante();
-            var nombre = data.nombre;
+            data.Nombre = "Alex";
         }
     }
 }

@@ -9,9 +9,10 @@ namespace propiedades
     public class Estudiante
     {
         private String nombre;
-        public String nombre 
-        { 
-            set { "Alex" = value } 
-        }  ;
+        public String Nombre 
+        {
+            get => nombre; 
+            set => nombre = value;  
+        }  
     }
 }
