@@ -8,11 +8,9 @@ namespace propiedades
 {
     public class Estudiante
     {
-        private String nombre;
-        public String Nombre 
-        {
-            get => nombre; 
-            set => nombre = value;  
-        }  
+        public int Edad {  get; set; }
+        public String Nombre { get; set; }
+        public double Calificacion { get; set; }
+          
     }
 }
